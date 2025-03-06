@@ -50,7 +50,7 @@ msgstr "Fournisseur désactivé"
 
 #: front/callback.php:108
 msgid "Automatic redirection, else click"
-msgstr ""
+msgstr "Redirection automatique, sinon cliquez"
 
 #: inc/preference.class.php:172 inc/provider.class.php:77
 msgid "Single Sign-on Provider"
@@ -62,11 +62,11 @@ msgstr "Comptes liés"
 
 #: inc/provider.class.php:126
 msgid "JSON SSO provider representation"
-msgstr ""
+msgstr "Version JSON du fournisseur SSO"
 
 #: inc/provider.class.php:127
 msgid "Copy provider information"
-msgstr ""
+msgstr "Copier les informations du fournisseur"
 
 #: inc/provider.class.php:158
 msgid "SSO Type"
@@ -95,7 +95,10 @@ msgid ""
 "%2$s to force login or %3$s to force account selection (supported URL "
 "settings may vary by provider). You can specify additional parameters with "
 "the \"&\" delimiter."
-msgstr ""
+msgstr "Vous permet de spécifier des paramètres personnalisés pour le fournisseur SSO %1$s. "
+"Exemple : %2$s pour forcer la connexion ou %3$s pour forcer la sélection du compte (les paramètres d'URL"
+" pris en charge peuvent varier en fonction du fournisseur). "
+"Vous pouvez spécifier des paramètres supplémentaires avec le délimiteur \"&\"."
 
 #: inc/provider.class.php:183 inc/provider.class.php:190
 #: inc/provider.class.php:541
@@ -108,7 +111,7 @@ msgstr "URL du jeton d'accès"
 
 #: inc/provider.class.php:200 inc/provider.class.php:557
 msgid "Resource Owner Details URL"
-msgstr "Resource Owner Details URL"
+msgstr "URL des détails du propriétaire des ressources"
 
 #: inc/provider.class.php:205
 msgid "IsDefault"
@@ -132,15 +135,16 @@ msgstr "Domaines autorisés"
 msgid ""
 "Provide a list of domains allowed to log in through this provider (separated"
 " by commas, no spaces)."
-msgstr ""
+msgstr "Fournit une liste de domaines autorisés à se connecter via ce fournisseur "
+"(séparés par des virgules, sans espaces)."
 
 #: inc/provider.class.php:225
 msgid "Use Email as Login"
-msgstr ""
+msgstr "Utiliser l'e-mail comme identifiant"
 
 #: inc/provider.class.php:228
 msgid "Split Name"
-msgstr ""
+msgstr "Extraire le nom"
 
 #: inc/provider.class.php:316
 msgid "Callback URL"
